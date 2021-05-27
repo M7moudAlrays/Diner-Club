@@ -1,0 +1,89 @@
+@media  screen and (max-width : 769px ) and (min-width:281)
+{
+    .head
+    {
+        margin-top: 40px;
+    }
+    .form-group h4 
+    {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (max-width : 281px)
+{  
+    .form-group h4 
+    {
+        font-size: 22px;
+    }  
+    a>input.btn-sign
+    {
+        font-size: 20px;
+        margin:40px;  
+    }
+    a.btn-login 
+    {
+        font-size: 2px;
+        padding: 17px 2%;
+    }
+}
+
+.serve-form
+{
+    background-image: url(../images/bg51.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+div.forms
+{
+    margin-top: 50px;
+}
+
+.form-group
+{
+    margin-top: 5px;
+}
+.head
+{
+    margin-top: 30px;
+}
+.form-group h4
+{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff ;
+    background-color: rgb(24, 99, 70); 
+}
+
+.form-group input
+{
+    padding: 27px ;
+}
+
+
+a>input.btn-sign
+{
+    font-size: 20px;
+    padding: 2% 5%;
+    margin: 0px 7%;
+    color: rgb(235, 228, 228);
+    border:none ;
+    background-color: rgb(24, 99, 70); 
+}
+
+a.btn-login
+{
+    font-size: 20px;
+    padding: 17px 5%;
+    color: rgb(235, 228, 228);
+    background-color: rgb(29, 24, 99);
+}
+a.btn-login:hover
+{
+    color: rgb(235, 235, 235);
+}
+
+
+

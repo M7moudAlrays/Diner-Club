@@ -1,0 +1,133 @@
+#details_main
+{ 
+    background-image: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.details_inner{ 
+ padding-top:170px;
+ padding-bottom:150px;
+ background-color: #000000ab;
+}
+.details_main_1
+{ 
+ text-align:center;
+}
+.details_main_1 h1{ 
+ color:#fff;
+ text-align: center;
+}
+.details_main_1 ul{ 
+ padding-top:10px;
+}
+.details_main_1 li{ 
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.details_main_1 li a{ 
+ color: #ffed00;
+}
+
+@media screen and (max-width : 769px)
+{
+  .details_main_1 h1
+  { 
+    font-size: 40px;
+  }
+  .details_main_1 li
+  { 
+    font-size: 20px;
+  }
+  span.label 
+  {
+      left: 220px;
+      font-size: 15px;
+  }
+
+  div.title h2
+  {
+      font-size: 20px;
+  }
+}
+
+@media screen  and(max-width: 281px)
+{
+  .details_main_1 h1
+  { 
+    font-size: 3px;
+  }
+  .details_main_1 li
+  { 
+    font-size: 2px;
+  }
+  div.title h2
+  {
+      font-size: 20px;
+  }
+}
+
+
+.items
+{
+    border: rgb(37, 107, 72) 2px solid;
+}
+
+div.title 
+{
+  font-family:monospace ;
+  background-color: rgb(132, 112, 184);
+  margin-bottom: 2%;
+  padding: 2% ;
+}
+
+div.title h2
+{
+    color:rgb(236, 231, 231) ;
+    font-size: 50px;
+}
+
+.div_row
+{
+  background-color: #c5c298;
+  margin-bottom: 3%;
+  padding: 5% 0%;
+}
+
+
+div.card
+{
+  border: #a00d0d9c 2px solid;
+  margin:2% ;
+  padding: 10px;
+  
+}   
+
+.img-responsive
+{
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+
+span.badge
+{
+    font-size: 20px;
+    padding: 3px 10px;
+}
+
+span.label 
+{
+    position: relative;
+    left: 250px;
+    top: 30px;
+    font-size: 20px;
+}
+
+
+.btn-group button
+{
+    padding: 8px;
+    font-size: 20px;
+}

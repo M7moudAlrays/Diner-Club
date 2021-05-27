@@ -1,0 +1,171 @@
+
+#recipes_main{ 
+    background-image: url(../images/indian-food-25189724.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .recipes_inner{ 
+    padding-top:170px;
+    padding-bottom:150px;
+    background-color: #000000ab;
+   }
+
+   .recipes_main_1{ 
+    text-align:center;
+   }
+   .recipes_main_1 h1{ 
+    color:#fff;
+   }
+   .recipes_main_1 ul{ 
+    padding-top:10px;
+   }
+   .recipes_main_1 li{ 
+    display:inline;
+    padding-right:5px;
+    color: #fff;
+    font-size: 25px;
+   }
+   .recipes_main_1 li a{ 
+    color: #ffed00;
+   }
+      
+
+div.header
+{
+  margin:auto;
+  background: rgb(153, 158, 189);
+  padding: 1%;
+}
+div h3
+{
+    color: rgb(59, 50, 50);
+    font-family:cursive ;
+}
+
+.offer_1
+{
+  border-top: rgb(53, 22, 37) 3px solid;
+  margin: 2% 0%;
+}  
+
+div.title , div.title2
+{
+  margin-bottom: 2%;
+  background-color: #b46772; 
+  padding: 2%;
+}
+div.title h2 , div.title2 h2
+{
+  font-size: 30px ;
+  color:#fff;
+  font-family: cursive ;
+}
+   
+
+div.card
+{
+  border: #0702529c 2px solid;
+  margin:1% ;
+  padding: 5px;
+  
+}   
+
+p.detls
+{
+  margin-top: 7%;
+  font-size: 15px;
+  margin-left: 5%;
+}
+
+p.bi
+{
+  margin-top: -55px ;
+  margin-left: 140px;
+  text-align: center;
+}
+
+p.bi>a.button
+{
+  text-align: center;
+  color: #fff;
+  background-color:#6f5f88 ;
+}
+
+p.bi>a.button:hover
+{
+  color: #000;
+  background-color:rgb(194, 168, 209);
+}
+
+.img-responsive
+{
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+
+.offer2
+{
+  border-top: rgb(19, 22, 20) 3px solid;
+  background-color: rgb(122, 70, 81);
+  margin: 2% 0%;
+}  
+
+div.title2 
+{
+ background-color: #3d3e69;
+}
+div.title2 h2
+{
+  color: rgb(227, 236, 213);
+}
+
+
+@media screen and (max-width : 769px)
+{
+  .recipes_main_1 h1
+  { 
+    font-size: 40px;
+  }
+  .recipes_main_1 li
+  { 
+    font-size: 25px;
+  }
+  div.title h2 , div.title2 h2
+  {
+      font-size: 40px;
+  }
+}
+
+@media screen and (max-width : 281px)
+{
+  .recipes_main_1 h1
+  { 
+    font-size: 25px;
+  }
+  .recipes_main_1 li
+  { 
+    font-size: 20px;
+  }
+  div.title h2 , div.title2 h2
+  {
+      font-size: 16px;
+  }
+
+  p.price2
+  {
+    font-size: 5px;
+  }
+
+    p.bi
+  {
+    margin-top: -50px ;
+    margin-left: 100px;
+  }
+
+  p.detls a , p.bi a
+  {
+    font-size: 22px;
+    padding-left: 4%;
+    padding-right: 2%;
+  }
+}

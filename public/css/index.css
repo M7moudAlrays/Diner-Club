@@ -1,0 +1,248 @@
+@media screen and (max-width : 767px)
+{
+
+#center .carousel-caption 
+{
+ position: static;
+}
+#center .kb_caption 
+{
+ width: 100%;
+ padding-bottom:60px;
+}
+#center .kb_caption h1 
+{
+ padding-top: 50px;
+}
+#center .kb_control_left, .kb_control_right 
+{
+ top: 59%;
+}
+#center .kb_control_right, .kb_control_left 
+{
+ top: 59%;
+}
+
+}
+ 
+@media (min-width:961px) and (max-width:1200px) 
+{
+#center .kb_caption h1 {
+ padding-top: 20px;
+ font-size: 34px;
+}
+#center .kb_caption p {
+ letter-spacing: 0px;
+ font-size: 17px;
+}
+#center .carousel-caption.kb_caption.kb_caption_right {
+ padding-bottom: 50px;
+}
+
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+#center .kb_caption h1 {
+ padding-top:110px;
+ font-size: 60px;
+}
+}
+
+@media screen and (max-width : 769px)
+
+{
+  #center .carousel-caption 
+  {
+    height: 95%;
+    margin-top: -20px;
+  }
+  #center .kb_caption h1
+  {
+    font-size: 35px;
+    padding-top: 10px;
+  }
+  #center .kb_caption p {
+    letter-spacing: 0px;
+    font-size: 14px;
+  }
+
+  p.btn
+  {
+    font-size: 10px;
+  }
+}
+
+
+
+
+.first-section
+{
+  margin-top: 40px;
+  /* border-bottom: #e22709 1px solid; */
+}
+
+.header h3
+{
+  color: red;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+               'Lucida Grande', 'Lucida Sans Unicode', 
+               'Geneva, Verdana, sans-serif';
+}
+
+div.card
+{
+  border: #1b1d70 2px solid;
+  margin:1% ;
+  padding: 10px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 9%), 0 2px 12px 0 rgb(0 0 0 / 5%);
+}   
+
+.img-responsive
+{
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+
+
+
+.second-section
+{
+  margin-top: 40px;
+}
+
+.second-section
+{
+  border-top: rgb(44, 37, 150) 2px solid;
+  margin: 40px 0px;
+  padding: 10px 0px;
+}
+div.div_row2
+{
+  border: rgb(234, 240, 148) 2px solid;
+  margin: 20px 0px;
+}
+
+div.card3
+{
+  margin-top: 30px;
+  margin-left: 0px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 9%), 0 2px 12px 0 rgb(0 0 0 / 5%);
+}
+
+.rec_name
+{
+  margin-bottom: 10px;
+}
+
+.third-section
+{
+  background-color: rgb(211, 211, 199) ;
+  margin: 5px;
+}
+.third-section div.header
+{
+  margin: 10px 0px;
+}
+
+
+div.card4 
+{
+  border: rgb(172, 133, 60) 3px solid ;
+  margin-bottom: 2% ;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 9%), 0 2px 12px 0 rgb(0 0 0 / 5%);
+}
+
+div.card4 img
+{
+  height: 300px;
+  border-radius: 0%;
+  width: 100%;
+
+}
+
+p.detls
+{
+  margin-top: 7%;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+p.bi
+{
+  margin-top: -55px ;
+  margin-left: 170px;
+}
+
+p.bi>a.button
+{
+  text-align: center;
+  color: #fff;
+  background-color:#6f5f88 ;
+}
+
+p.bi>a.button:hover
+{
+  color: #000;
+  background-color:rgb(194, 168, 209);
+}
+
+@media screen and (max-width : 769px)
+
+{
+  #center .carousel-caption 
+  {
+    height: 90%;
+    margin-top: -20px;
+  }
+  #center .kb_caption h1
+  {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  #center .kb_caption p {
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+  p.detls
+  {
+    margin-top: 7%;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  p.bi
+  {
+    margin-top: -55px ;
+    margin-left: 160px;
+  }
+
+}
+
+@media screen and (max-width : 281px)
+{
+    p.bi
+  {
+    margin-top: -50px ;
+    margin-left: 100px;
+  }
+
+  p.detls a , p.bi a
+  {
+    font-size: 22px;
+    padding-left: 4%;
+    padding-right: 2%;
+  }
+  p.detls
+  {
+    margin-top: 8%;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  p.bi
+  {
+    margin-top: -50px ;
+    margin-left: 100px;
+  }
+}

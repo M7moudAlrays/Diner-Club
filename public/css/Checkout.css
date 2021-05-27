@@ -1,0 +1,56 @@
+.serve-form
+{
+    background-image: url(../images/n.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+div.forms
+{
+    margin-top: 50px;
+}
+
+.form-group
+{
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.form-title
+{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.form-group h3
+{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff ;
+    background-color: rgb(99, 69, 24); 
+}
+
+.form-group input
+{
+    padding: 27px ;
+}
+
+
+.form-group input.btn
+{
+    font-size: 20px;
+    margin: -2px 45%;
+    padding: 10px 20px ;
+    color: rgb(235, 228, 228);
+    background-color: rgb(99, 69, 24);  
+    
+}
+
+a.btn
+{
+    color: rgb(235, 228, 228);
+    background-color: rgb(24, 99, 70);
+} 
+
+

@@ -1,0 +1,77 @@
+@media screen and (max-width : 769px)
+{
+    .head  h4 
+    {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width : 281px)
+{
+    .form-group h4
+    {
+        font-size: 25px ;
+    }
+}
+.sec-login
+{
+    background-image: url(../images/bg51.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.justify-content-center
+{
+    margin-top: 100px ; 
+}
+
+.form-group
+{
+    margin-top: 2px;
+}
+.head
+{
+    margin-top: 10px;
+}
+
+.form-group h4
+{
+    font-size: 30px;
+    text-align: center;
+    color: #fff ;
+    background-color: rgb(24, 99, 70); 
+}
+
+.form-group input
+{
+    padding: 27px ;
+}
+a.btn
+{
+    color: rgb(235, 228, 228);
+    /* background-color: rgb(96, 54, 131) ;  */
+    background-color: rgb(29, 24, 99);
+    margin-left: 10px;
+    padding: 10px;
+} 
+
+a.btn:hover
+{
+    color: rgb(235, 228, 228);
+    background-color: rgb(29, 24, 99); 
+} 
+
+
+button.btn , button.btn:hover 
+{
+    background-color: rgb(24, 99, 70);
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn-link
+{
+    margin: 10px 0px;
+}

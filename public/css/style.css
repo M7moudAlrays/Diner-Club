@@ -1,0 +1,257 @@
+.container-fluid{
+    padding:0px;
+}
+.main-header{
+    background-image: url("../images/download (1).jpg");
+    height: 500px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.overlay{
+    
+    height:58%;
+    width:87%;
+position:absolute;
+    background-color:rgba(0,0,0,.3);
+}
+/* .overlay:hover: .reciepeImge{
+transform:scale(1.9);
+
+} */
+.nav-item{
+    padding: 15px;
+}
+
+.navbar-dark{
+    background-color: black
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+}
+
+.navbar{
+    /* background-color:red !impot */
+}
+.text-center h1{
+    margin-top: 2em;
+    color:#FFF;
+    font-size: 100px;
+}
+
+.text-center .my-title{
+    color:rgb(192, 7, 8); 
+}
+
+.header-title{
+    font-size: 60px;
+    position: absolute;
+    top:30px;
+    font-weight: 700;
+    color:white;
+    left: 50%;
+    top: 40%;
+}
+
+.text-center p{
+    font-size: 26px;
+    color:#fefefe;
+}
+
+.container button{
+    /* background-color: orange; */
+}
+
+.container .my-btn{
+    background-color: blueviolet;
+}
+
+.container h2{
+    font-size: 20px;
+}
+
+.checked {
+    color: orange;
+  }
+
+  .reservations h1{
+      font-weight: 700;
+  }
+
+  .card .my-img{
+      width:253px;
+      height:167px;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot2 {
+    padding:0px 5px 0px 5px;
+    width: 50px;
+    text-align:center;
+    background-color: orange;
+    border-radius: 50%;
+  }
+
+
+  progress::-moz-progress-bar { background: rgb(248, 197, 102) ; }
+progress::-webkit-progress-value { background: rgb(248, 197, 102) ; }
+progress { background: rgb(248, 197, 102) ; }
+  
+#bar {
+    width: 75%;
+    height: .5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+  .span-checked{
+      background-color: blueviolet;
+  }
+
+  .subscribe ,.slash{
+      margin-bottom: -20px;
+      background-color:#9e9a9a;
+  }
+
+  .subscribe span,.slash span{
+   font-size: 40px;
+  }
+
+  .subscribe p,.slash p{
+    font-size: 22px;
+   }
+
+   .subscribe input{
+    border:3px solid blueviolet;
+   }
+
+   .subscribe .my-btn{
+    background-color: blueviolet;
+    font-size: 20px;
+    width:60px;
+   }
+
+ footer{
+    background-image: url("../images/bg5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+ }
+
+footer h3,footer h6,.con i{
+    color:blueviolet;
+    padding:10px;
+}
+
+footer p{
+    color:#FFFFFF;
+}
+
+footer span,.con p{
+    color:rgb(139, 134, 134);
+    padding-top: 5px
+}
+
+.social{
+    color: #FFF;
+    background-color: dimgrey;
+    width: 280px;
+    box-shadow: 5px 5px  #353229;
+}
+
+.social i{
+    padding:10px
+}
+
+.w-45{
+    width: 49%;
+}
+.w-99{
+    width: 99%;
+}
+.slide{
+    /* height: 70vh; */
+    /* background-image: url('../images/bg2.png'); */
+}
+
+.features{
+    height: 120vh;
+    background-image:url('../images/bg5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-control-next, .carousel-control-prev{
+
+
+    top: -531px;
+
+}
+
+
+element.style {
+}
+.carousel-control-next, .carousel-control-prev {
+    top: -400px;
+}
+.carousel-control-next {
+    right: 500px;
+}
+
+.carousel-control-prev {
+    left: -65px;
+}
+.slide button{
+
+    padding: 10px;
+}
+
+.menu span {
+    padding-bottom: 30px;
+    /* background-color: #353229; */
+    font-weight: 600;
+    margin-top: 20px;
+}
+.menu p{
+    margin-top: 10px;
+}
+.reservations input{
+    margin-bottom: 20px;
+}
+
+.slash input{
+    display: inline-block;
+}
+
+button{
+    background-color: yellow;
+}
+.reservations p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact input{
+    background-color: rgb(211, 216, 221);
+    height: 50px;
+    border: none;
+}
+
+.contact textarea{
+    background-color: rgb(211, 216, 221);
+    height: 150px;
+    border: none
+}
+

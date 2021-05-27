@@ -1,0 +1,50 @@
+@media screen and (max-width : 281px)
+{
+   
+    .form-group h3
+    {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .form-group p.alert
+    {
+        font-size: 12px;
+    }
+}
+
+.serve-form
+{
+    background-image: url(../images/18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.forms
+{
+    margin-top: 50px;
+}
+
+.form-group h3
+{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff ;
+    background-color: rgb(74, 56, 155); 
+}
+
+.form-group input
+{
+    padding: 27px ;
+}
+
+.form-group input.btn
+{
+    font-size: 20px;
+    margin: -1% 40%;
+    padding: 10px 20px ;
+    color: rgb(235, 228, 228);
+    background-color: rgb(74, 56, 155);
+}
+
+

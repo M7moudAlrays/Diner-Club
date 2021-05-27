@@ -1,0 +1,178 @@
+#recipes_main{ 
+    background-image: url(../images/35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .recipes_inner{ 
+    padding-top:170px;
+    padding-bottom:150px;
+    background-color: #000000ab;
+   }
+   
+   .recipes_main_1{ 
+    text-align:center;
+   }
+   .recipes_main_1 h1{ 
+    color:#fff;
+   }
+   .recipes_main_1 ul{ 
+    padding-top:10px;
+   }
+   .recipes_main_1 li{ 
+    display:inline;
+    padding-right:5px;
+    color: #fff;
+    font-size: 25px;
+   }
+   .recipes_main_1 li a{ 
+    color: #ffed00;
+   }
+   /********************* recipes_main_end ****************/
+   /********************* cooking ****************/
+   #cooking{ 
+    padding-top:30px;
+    padding-bottom:30px;
+   }
+   #cooking .input-text {
+    display: block;
+    width: 100%;
+    color: #e42929;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 700;
+   }
+   #cooking select{
+    border: 1px solid #de1010!important;
+   }
+   .cooking_1{ 
+    background-color: #fff;
+   }
+   .cooking_2 
+   { 
+     display:inline-block ;
+     margin: -20px 0px;
+     padding-bottom: -10px;
+   }
+   .cooking_2>h4
+   { 
+     font-size: 30px; 
+     font-weight: bold;
+     font-family: cursive;
+   }
+
+
+   /********************* cooking_end ****************/
+ 
+   @media screen and (max-width : 767px){
+   .recipes_inner {
+    padding-bottom: 70px;
+    padding-top: 110px;
+   }
+   #cooking select {
+    margin-bottom: 5px;
+   }
+   #recipes{ 
+    text-align:center;
+   }
+   }
+   
+   @media (min-width:470px) and (max-width:767px) { 
+   
+   }
+    
+   @media (min-width:768px) and (max-width:960px) { 
+   #cooking .input-text {
+    padding: 6px 12px;
+    font-size: 12px;
+   }
+   #cooking .input-text {
+    width: 100%;
+   }
+   #cooking {
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+   } 
+    
+   @media (min-width:961px) and (max-width:1200px) {
+   #cooking .input-text {
+    padding: 6px 12px;
+    font-size: 12px;
+   }
+   #cooking .input-text {
+    width: 100%;
+   }
+   #cooking {
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+   }
+
+   @media screen and (min-width : 655px)
+   {
+     p
+     {
+       font-size: 1px ;
+     }
+   }
+   
+div.card
+{
+  border: #524d029c 2px solid;
+  margin:1% ;
+  padding: 10px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 9%), 0 2px 12px 0 rgb(0 0 0 / 5%);
+}
+
+div.card:hover
+{
+  transition: transform 8s ease-in-out , -webkit-transform 9s ease-in-out ;
+}
+
+p.detls
+{
+  margin-top: 7%;
+  font-size: 15px;
+}
+
+p.bi
+{
+  margin-top: -55px ;
+  margin-left: 135px ;
+ 
+}
+
+p.bi>a.button
+{
+  text-align: center;
+  color: #fff;
+  background-color:#6f5f88 ;
+}
+
+p.bi>a.button:hover
+{
+  color: #000;
+  background-color:rgb(194, 168, 209);
+}
+
+.img-responsive
+{
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+@media screen and (max-width : 281px)
+{
+    p.bi
+  {
+    margin-top: -50px ;
+    margin-left: 100px;
+  }
+
+  p.detls a , p.bi a
+  {
+    font-size: 22px;
+    padding-left: 4%;
+    padding-right: 2%;
+  }
+}

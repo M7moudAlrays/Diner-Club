@@ -1,0 +1,186 @@
+
+#details_main
+{
+    background-image: url(../images/bg50.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.details_inner{
+ padding-top:170px;
+ padding-bottom:150px;
+ background-color: #000000ab;
+}
+.details_main_1
+{
+ text-align:center;
+}
+.details_main_1 h1{
+ color:#fff;
+ text-align: center;
+}
+.details_main_1 ul{
+ padding-top:10px;
+}
+.details_main_1 li{
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.details_main_1 li a{
+ color: #ffed00;
+}
+/********************* details_main_end ****************/
+/********************* details ****************/
+#details{
+ padding-top:30px;
+ padding-bottom:30px;
+}
+.details_1{
+ padding-bottom:30px;
+}
+.details_1 h3{
+ text-align:center;
+ color: #e42929;
+ font-weight:bold;
+}
+.content-top2 h4 {
+ font-size: 14px;
+ letter-spacing: 2px;
+ font-weight: bold;
+ color: #e22709;
+}
+.content-top2 h4:before {
+ display: inline-block;
+ width: 100px;
+ height: 2px;
+ background-color:#ff8f19;
+ vertical-align: middle;
+ margin-right: 1%;
+ content: "";
+}
+.content-top2 h4:after {
+ display: inline-block;
+ width: 100px;
+ height: 2px;
+ background-color:#ff8f19;
+ vertical-align: middle;
+ margin-left: 1%;
+ content: "";
+}
+.details_3 h3{
+ font-weight:bold;
+ padding-bottom:20px;
+ color: #e42929;
+}
+.details_4{
+ background: #f7f7f7;
+ padding: 24px 40px;
+ border-radius: 8px;
+}
+.details_4 i{
+ color: #09d405;
+ padding-right:10px;
+}
+.well_1{
+ font-size:18px;
+}
+
+
+@media screen and (max-width : 767px){
+.details_inner {
+ padding-top: 110px;
+ padding-bottom: 50px;
+}
+#details {
+ text-align: center;
+}
+}
+
+div.header h3
+{
+    margin: 20px 0px;
+    font-size: 30px;
+
+}
+.two-div-details
+{
+    height: 700px;
+}
+
+.alldetails h4
+ {
+     font-family:cursive ;
+     color: rgba(196, 75, 38, 0.76);
+     margin-bottom: 20px;
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .details-section p
+ {
+     color: rgb(11, 12, 100) ;
+     font-size: 23px;
+ }
+ .alldetails ,.div_img-price
+ {
+    margin: 10px 0px;
+    border: chartreuse 2px solid;
+    padding: 10px;
+ }
+
+
+ div h3
+{
+    color: rgb(230, 70, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .div_name
+ {
+    background-color:rgba(245, 236, 236, 0.801);
+    padding: 2px 8px;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 15%;
+ }
+
+ .div_descrip
+ {
+    background-color:rgba(177, 153, 153, 0.801);
+    border: steelblue 1px solid ;
+    border-radius: 5%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 30%;
+ }
+
+ .div_ingreds
+ {
+     background-color:rgba(156, 177, 168, 0.801);
+     padding: 10px;
+     margin-right: 10px;
+     border-radius: 5%;
+     margin-top: 20px;
+     height: 30%;
+ }
+ .price1
+ {
+     margin-top: 10px;
+ }
+
+p.btn
+{
+    margin-left: 40px !important;
+    margin-top: 40px !important;
+}
+
+
+.mynav{
+    left: 860px;
+    top: 40px;
+
+}
